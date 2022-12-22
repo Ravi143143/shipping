@@ -1,0 +1,146 @@
+body{
+    margin:0px;
+}
+.heading{
+    color:yellow;
+    text-decoration:none;
+}
+.container{
+    background-color:grey;
+    padding:10px;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.h1{
+    font-size:25px;
+    color:red;
+    padding:10px;
+}
+.h2{
+    font-size:20px;
+    color:rgb(128, 115, 0);
+}
+.button{
+    color:red;
+    background-color:#000000;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size:20px;
+    margin-top:10px;
+    border-radius: 5px;
+}
+.l{
+    list-style-type:none;
+}
+.f1{
+    text-decoration: none;
+    color:red;
+    font-size:20px;
+    padding:10px;
+}
+.f2:hover{
+    background-color:black;
+}
+.sm-container{
+    display:none;
+}
+.s-container{
+    display:flex;
+    flex-direction:column;
+}
+.c1{
+    margin-right:10px;
+    margin-top:5px;
+}
+
+.b-container{
+    display:flex;
+    justify-content:space-between;
+}
+.m{
+    height:20px;
+    width:20px;
+}
+.j{
+    background-image:url("https://images.tmcnet.com/tmc/misc/articles/image/2019-jul/4685860134-cargo-1000x536.jpeg");
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    color:red;
+    font-style:oblique;
+}
+.k{
+    height:100px;
+}
+.n{
+    display:flex;
+    justify-content:space-between;
+    background-color: yellow;
+    margin-top:50px;
+}
+.x{
+    background-image: url("https://www.trbimg.com/img-56dce3d2/turbine/la-me-chinese-shipping-boom-20160307");
+    height:100vh;
+    background-size:cover;
+}
+.y{
+    background-image:linear-gradient(to right,yellow,pink);
+    padding:15px;
+    margin-top:35px;
+}
+.r{
+    background-color:grey;
+    padding:25px;
+    color:red;
+    font-size:20px;
+    font-style:oblique;
+    font-weight:bold;
+    margin-top:45px;
+    background-image:linear-gradient(to right,yellow,pink);
+}
+.r1{
+    width:50%;
+    border:3px solid red;
+    border-radius:20px;
+    background-image: linear-gradient(to right, black 80%,red);
+}
+.h8{
+    display:flex;
+    flex-direction: column;
+    height:65px;
+    justify-content: center;
+}
+.b1{
+    margin-right:20px;
+}
+@media (min-width:700px){
+    .s-container{
+       width:100%;
+       display:flex;
+       flex-direction:row;
+       justify-content:space-between;
+    }
+    .sm-container{
+         display:flex;
+         flex-direction:row;
+    }
+    .b1{
+        display:none;
+    }
+    .c1{
+        margin-top:0px;
+    }
+    .j{
+        font-size:35px;
+    }
+    .r{
+        font-size:25px;
+    }
+    .r1{
+        width:40%;
+    }
+}
